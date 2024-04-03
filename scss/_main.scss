@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin: 1rem;
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 1px 1px 5px 0px pink;
+}
+
+h2 {
+    margin: 1rem;
+    padding-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 1px 1px 5px 0px pink;
+}
+
+.takeaway {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+
+}
+
+.takeaway p {
+    background-color: purple;
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 8px;
+}
+
+.card-body h4 {
+
+    color: goldenrod;
+
+}
+
+
+@media (min-width: 768px) {
+
+    .card-body h4 {
+
+        color: goldenrod;
+
+    }
+
+    .takeaway p {
+        background-color: pink;
+        margin-top: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-align: center;
+
+    }
+}

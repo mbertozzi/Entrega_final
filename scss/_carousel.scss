@@ -1,24 +1,68 @@
+$carousel-indicator-active-bg: $white;
+$carousel-control-width: 10%;
+$carousel-control-opacity: .8;
+$carousel-control-hover-opacity: .9;
+$carousel-control-transition: opacity .1s ease;
+
+$carousel-indicator-width: 30px;
+$carousel-indicator-height: 3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer: 3px;
+$carousel-indicator-opacity: .5;
+$carousel-indicator-active-bg: $white;
+$carousel-indicator-active-opacity: 1;
+$carousel-indicator-transition: opacity .6s ease;
+
+$carousel-caption-width: 100%;
+$carousel-caption-color: $black;
+$carousel-caption-padding-y: 2.25rem;
+$carousel-caption-spacer: -1.25rem;
+
+$carousel-control-icon-width: 2rem;
+$carousel-transition-duration: .6s;
+$carousel-transition: transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
 .carousel {
-    $carousel-control-color: $white;
-    $carousel-control-width: 15%;
-    $carousel-control-opacity: .5;
-    $carousel-control-hover-opacity: .9;
-    $carousel-control-transition: opacity .15s ease;
 
-    $carousel-indicator-width: 30px;
-    $carousel-indicator-height: 3px;
-    $carousel-indicator-hit-area-height: 10px;
-    $carousel-indicator-spacer: 3px;
-    $carousel-indicator-opacity: .5;
-    $carousel-indicator-active-bg: $white;
-    $carousel-indicator-active-opacity: 1;
-    $carousel-indicator-transition: opacity .6s ease;
+    margin-top: 4rem;
+    width: 100%;
+    margin: 0 auto;
 
-    $carousel-caption-width: 70%;
-    $carousel-caption-color: $white;
-    $carousel-caption-padding-y: 1.25rem;
-    $carousel-caption-spacer: 1.25rem;
+    .carousel_h4 {
+        color: goldenrod;
+        background-color: palevioletred;
 
-    $carousel-control-icon-width: 2rem;
+    }
 
+    .carousel_h42 {
+        color: white;
+        background-color: palevioletred;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel {
+
+        margin-top: 4rem;
+        width: 60%;
+        margin: 0 auto;
+
+        .carousel-caption {
+
+
+
+            .carousel_h4 {
+                color: goldenrod;
+                background-color: palevioletred;
+
+            }
+
+            .carousel_h42 {
+                color: white;
+                background-color: palevioletred;
+            }
+
+        }
+
+    }
 }

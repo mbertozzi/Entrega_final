@@ -1,4 +1,10 @@
-@import 'menu';
-@import 'productos';
-@import 'footer';
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
 @import "carousel";
+@import "../node_modules/bootstrap/scss/carousel";
+@import "menu";
+@import "productos";
+@import "footer";
+@import "main";
+@import "info";
