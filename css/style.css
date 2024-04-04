@@ -536,6 +536,12 @@ h2 {
   color: goldenrod;
 }
 
+.home-pri {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 @media (min-width: 768px) {
   .card-body h4 {
     color: goldenrod;
@@ -581,8 +587,10 @@ h2 {
   row-gap: 10px;
   column-gap: 10px;
   */
-  margin: auto;
+  margin-left: 1rem;
   gap: 1px;
+  justify-content: center;
+  align-content: center;
 }
 .grid-conteiner-info img {
   width: 360px;
@@ -786,6 +794,13 @@ h2 {
   .ofertas-text .boton {
     margin-top: 4rem;
   }
+}
+.contacto-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
